@@ -37,7 +37,7 @@ function Landing() {
     return (
         <div className="relative h-screen">
             <Image src={images[currentIndex]} alt='bg-img' className="w-full h-full object-cover absolute z-[-1]" />
-            <Nav className="absolute top-0 left-0 w-full z-10" />
+            <Nav className="fixed absolute top-0 left-0 w-full z-10" />
             <div className="relative z-10">
             <div className='mt-56 flex justify-center flex-col'>
             <h1 className='absolute bg-[#FF7F00] text-white h-20 w-fit text-4xl pt-6 px-20 xs:tes-[8px] mb-44'>Helping Good People WIN.</h1>
